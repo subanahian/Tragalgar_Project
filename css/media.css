@@ -8,6 +8,9 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media only screen and (min-width: 768px) and (max-width: 990.98px) {
+  menu-iteam {
+    display: none;
+  }
 }
 
 /* Large devices (desktops, less than 1200px) */

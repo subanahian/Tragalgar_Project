@@ -28,9 +28,18 @@ nav {
 .menu-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 10px;
 }
-.menu-iteam {
+.menu-iteam a {
   text-decoration: none;
   color: #1f1534;
+  margin-left: 40px;
+}
+.menu-iteam a:first-child {
+  color: #000;
+  font-weight: bold;
+}
+.hamburger {
+  display: none;
 }
