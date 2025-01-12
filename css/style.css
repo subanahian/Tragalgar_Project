@@ -43,3 +43,36 @@ nav {
 .hamburger {
   display: none;
 }
+/* hero-section-style */
+.hero-section {
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.hero-content {
+  width: 40%;
+}
+.hero-content h1 {
+  font-size: 48px;
+  color: #000;
+  margin-bottom: 25px;
+}
+.hero-content p {
+  color: #7d7987;
+  font-size: 21px;
+  margin-bottom: 45px;
+}
+.hero-content button {
+  border: none;
+  background-color: #458ff6;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 9999px;
+}
+.hero image img {
+  width: 100%;
+}
