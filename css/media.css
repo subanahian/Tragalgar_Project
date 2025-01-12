@@ -16,8 +16,13 @@
     width: 100%;
     text-align: center;
   }
-  .hero-content h1 {
-    font-size: 35px;
+  }
+  .hero-container {
+    flex-direction: column;
+  }
+  .hero-content {
+    width: 100%;
+    text-align: center;
   }
   .hero-image {
     width: 100%;
@@ -36,6 +41,16 @@
     display: block;
     font: 20px;
   }
+  .hero-container {
+    flex-direction: column;
+  }
+  .hero-content {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-image {
+    width: 100%;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -49,6 +64,18 @@
   .hamburger {
     display: block;
     font: 20px;
+  }
+  ..hero-content {
+    width: 50px;
+  }
+  .hero-container {
+    flex-direction: column;
+  }
+  .hero-content {
+    width: 100%;
+  }
+  .hero-image {
+    width: 100%;
   }
 }
 
