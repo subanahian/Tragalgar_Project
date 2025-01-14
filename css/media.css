@@ -1,21 +1,14 @@
 /*  X-Small devices (portrait phones, less than 576px) */
 @media only screen and (min-width: 0px) and (max-width: 574.98px) {
   .container {
-    width: 95%;
+    width: 90%;
   }
-  .menu-items {
+  .menu-iteam {
     display: none;
   }
-  .hambarger-icon {
+  .hamburger {
     display: block;
-  }
-  .hero-container {
-    flex-direction: column;
-  }
-  .hero-content {
-    width: 100%;
-    text-align: center;
-  }
+    font: 20px;
   }
   .hero-container {
     flex-direction: column;
@@ -77,7 +70,6 @@
     width: 50%;
   }
 }
-
 
 /* Large devices (desktops, less than 1200px) */
 @media only screen and (min-width: 991px) and (max-width: 1198.98px) {

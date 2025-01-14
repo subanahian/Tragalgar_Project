@@ -50,7 +50,6 @@ nav {
 .hero-container {
   display: flex;
   align-items: center;
-  gap: 50px;
   direction: row;
 }
 .hero-content {
@@ -76,7 +75,7 @@ nav {
   border-radius: 9999px;
 }
 .hero-image {
-  width: 60%;
+  width: 50%;
 }
 .hero-image img {
   width: 100%;
