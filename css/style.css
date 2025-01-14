@@ -85,3 +85,11 @@ nav {
   top: 160px;
   z-index: -1;
 }
+.services-section {
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+}
+.services-section p {
+  color: #7d7987;
+}
