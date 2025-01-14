@@ -34,6 +34,7 @@ nav {
 .menu-iteam a {
   text-decoration: none;
   color: #1f1534;
+  font-size: 18px;
   margin-left: 40px;
 }
 .menu-iteam a:first-child {
@@ -50,6 +51,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 50px;
+  direction: row;
 }
 .hero-content {
   width: 40%;
@@ -73,7 +75,10 @@ nav {
   padding: 10px 40px;
   border-radius: 9999px;
 }
-.hero image img {
+.hero-image {
+  width: 60%;
+}
+.hero-image img {
   width: 100%;
 }
 .style-iteam-1 {

@@ -58,26 +58,26 @@
   .container {
     width: 90%;
   }
-  .menu-iteam {
+  .menu-items {
     display: none;
   }
-  .hamburger {
+  .hambarger-icon {
     display: block;
-    font: 20px;
-  }
-  ..hero-content {
-    width: 50px;
   }
   .hero-container {
-    flex-direction: column;
+    gap: 20px;
   }
   .hero-content {
-    width: 100%;
+    width: 50%;
+  }
+  .hero-content h1 {
+    font-size: 35px;
   }
   .hero-image {
-    width: 100%;
+    width: 50%;
   }
 }
+
 
 /* Large devices (desktops, less than 1200px) */
 @media only screen and (min-width: 991px) and (max-width: 1198.98px) {
