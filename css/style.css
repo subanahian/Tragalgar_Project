@@ -85,29 +85,27 @@ nav {
   top: 160px;
   z-index: -1;
 }
-.services-section {
+.service {
+  margin-bottom: 100px;
+}
+.service-heading {
   text-align: center;
-  padding: 20px;
-  align-items: center;
 }
-.services-section p {
-  color: #7d7987;
+.service-heading h4 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 33px;
 }
-.learn-more-btn {
-  display: inline;
-  color: #458ff6;
-  border-radius: 9999px;
-  border-color: #458ff6;
+.underline {
+  height: 2px;
+  width: 56px;
+  background-color: var(--black);
+  margin: 0 auto;
+  margin-bottom: 33px;
 }
-.healthcare-container {
-  display: flex;
-  align-items: center;
-  direction: row;
-}
-.pic {
-  width: 100%;
-}
-.text {
-  flex: 1;
-  width: 40%;
+.service-heading p {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
 }
