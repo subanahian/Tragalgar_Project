@@ -109,3 +109,25 @@ nav {
   font-weight: 300;
   line-height: 30px;
 }
+.service-item-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.part {
+  background-color: #fff;
+  border: 2 px;
+  width: 33%;
+  padding: 20px;
+}
+.part img {
+  margin-bottom: 15px;
+}
+.part h3 {
+  color: #000;
+}
+.part p {
+  color: #7d7987;
+}
