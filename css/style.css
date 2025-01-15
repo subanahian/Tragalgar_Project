@@ -93,3 +93,21 @@ nav {
 .services-section p {
   color: #7d7987;
 }
+.learn-more-btn {
+  display: inline;
+  color: #458ff6;
+  border-radius: 9999px;
+  border-color: #458ff6;
+}
+.healthcare-container {
+  display: flex;
+  align-items: center;
+  direction: row;
+}
+.pic {
+  width: 100%;
+}
+.text {
+  flex: 1;
+  width: 40%;
+}
