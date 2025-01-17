@@ -132,3 +132,21 @@ nav {
 .part p {
   color: #7d7987;
 }
+/*2nd part*/
+
+.healthcare-container {
+  justify-content: center;
+  align-items: center;
+}
+.healthcare-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.healthcare-text p {
+  color: #7d7987;
+}
+.healthcare-pic {
+  display: flex;
+}
