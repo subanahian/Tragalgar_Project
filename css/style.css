@@ -90,6 +90,7 @@ nav {
 }
 .service-heading {
   text-align: center;
+  margin-bottom: 80px;
 }
 .service-heading h4 {
   font-size: 36px;
@@ -111,17 +112,16 @@ nav {
 }
 .service-item-container {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 33px;
 }
 
 .part {
   background-color: #fff;
-  border: 2 px;
-  width: 33%;
-  padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 30%;
+  padding: 38px;
+  box-shadow: 10px 40px 50px #e5e9f666;
 }
 .part img {
   margin-bottom: 15px;
@@ -133,28 +133,26 @@ nav {
   color: #7d7987;
 }
 .learn-more {
-  display: inline-block;
-  background: white
-  color:#458FF6;
+  background: white;
+  color: #458ff6;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
-  border-color: #458FF6;
+  border-color: #458ff6;
   border-radius: 9999px;
 }
 /*2nd part*/
 
 .healthcare-container {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.healthcare-text {
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
-}
+
 .healthcare-text p {
   color: #7d7987;
 }
 .healthcare-pic {
   display: flex;
+}
+.healthcare-text hr {
 }
