@@ -142,17 +142,25 @@ nav {
 }
 /*2nd part*/
 
+.health-care {
+}
 .healthcare-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  padding-left: 20px;
 }
 
 .healthcare-text p {
   color: #7d7987;
+  size: 18px;
 }
 .healthcare-pic {
-  display: flex;
+}
+.healthcare-pic img {
+  width: 100%;
+  padding-right: 20px;
 }
 .healthcare-text hr {
 }
