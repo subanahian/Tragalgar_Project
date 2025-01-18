@@ -164,3 +164,19 @@ nav {
 }
 .healthcare-text hr {
 }
+
+/*3rd part*/
+.app-download {
+}
+.container-dwn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.download-text p {
+  color: #7d7987;
+  size: 18px;
+  line-height: 30px;
+}

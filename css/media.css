@@ -32,7 +32,14 @@
   .healthcare-text {
     width: 50%;
   }
+  .download-img{
+    width: 50%;
+  }
+  .download-text{
+    width: 50%;
+  }
 }
+
 
 /* Small devices (landscape phones, less than 768px) */
 @media only screen and (min-width: 575px) and (max-width: 767.98px) {
@@ -68,6 +75,12 @@
   .healthcare-text {
     width: 50%;
   }
+  .download-img{
+    width: 50%;
+  }
+  .download-text{
+    width: 50%;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -93,6 +106,19 @@
   .hero-image {
     width: 50%;
   }
+  .healthcare-pic {
+    width: 50%;
+  }
+  .healthcare-text {
+    width: 50%;
+  }
+  .download-img{
+    width: 50%;
+  }
+  .download-text{
+    width: 50%;
+  }
+}
 }
 
 /* Large devices (desktops, less than 1200px) */
